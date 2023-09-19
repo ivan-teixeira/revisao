@@ -1,0 +1,74 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "section section2 aside"
+    "footer footer footer";
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+}
+
+.icon{
+    grid-area: header;
+    justify-self: end;
+    align-self: center;
+}
+
+img{
+    height: 30px;
+}
+header{
+    grid-area: header;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #eee;
+    padding: 10px;
+}
+
+#s1{
+    grid-area: section;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+#s2{
+    grid-area: section2;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+article{
+    margin-bottom: 20px;
+}
+
+/* Estilos adicionais são para o fim de ilustração */ 
+
+nav li{
+
+    display: inline;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
