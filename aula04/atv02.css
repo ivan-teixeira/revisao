@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+}
+#div1{
+    height: 150px;
+    width: 1498px;
+    background: url("imgs/img02.png") no-repeat 1300px rgba(255, 255, 0, 0.5);
+    background-size: 100px;
+    border: 2px solid black;
+
+    
+}
+
+#div2{
+    background-color: yellow;
+    width: 1500px;
+    height:80vh;
+}
+
+#p1{
+    border: 5px solid rgb(0, 0, 0);
+    margin: 50px;
+    width: 300px;
+    text-align: center;
+}

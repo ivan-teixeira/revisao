@@ -1,0 +1,59 @@
+.col1{
+    background-color: green;
+    grid-area: col1;
+}
+.col2{
+    background-color: red;
+    grid-area: col2;
+}
+.col3{
+    background-color: blue;
+    grid-area: col3;
+}
+.col4{
+    background-color: rgb(203, 253, 153);
+    grid-area: col4;
+
+}
+
+.box{
+    width: 1495px;
+    height: 715px;
+
+    display: grid;
+    grid-template-areas: "col4 col4 col4"
+    "col1 col2 col3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 8fr 0px;
+}
+*{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+.A1{
+    background-color: brown;
+    grid-area: A1;
+}
+.A2{
+    background-color: purple;
+    grid-area: A2;
+
+}
+.A3{
+    background-color: grey;
+    grid-area: A3;
+
+}
+.p1{ text-align: center; }
+.box{
+    display: grid;
+    grid-template-areas: " A1 A2 A3"
+    "A1 A2 A3";
+    grid-template-columns: 100px 200px 1fr;
+    grid-template-rows: 100px 200px 1fr;}

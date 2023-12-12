@@ -1,0 +1,129 @@
+body{
+    height: 800px;
+    width: 1500px;
+    display: grid;
+    grid-template-areas: 
+    "titl titl titl"
+    "br cont cr"
+    "ft ft ft";
+    grid-template-columns: 80px 1fr 200px;
+    grid-template-rows: 100px  1fr 90px;
+}
+.br{
+    grid-area: br;
+    background-color: rgba(18, 128, 224, 0.875);
+    display: grid;
+    grid-template-areas:"r1"
+    "r2"
+    "r3";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.br .r1{
+    background-color: burlywood;
+    grid-area: r1;
+}
+.br .r2{
+    background-color: rgb(255, 145, 0);
+    grid-area: r2;
+
+}
+.br .r3{
+    background-color: rgb(72, 41, 0);
+    grid-area: r3;
+    color: white;
+}
+.cr{
+    grid-area: cr;
+    background-color: rebeccapurple;
+    display: grid;
+    grid-template-areas: 
+    "l1 l2"
+    "l3 l4"
+    "l5 l6"
+    "l7 l8";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.cr .l1 p{
+    background-color: rgb(105, 0, 0);
+    grid-area: l1;
+}
+.cr .l1 {
+    background-color: rgb(232, 7, 7);
+    grid-area: l1;
+}
+.cr .l2 h1{
+    background-color: blue;
+    grid-area: l2;
+}
+.cr .l2 {
+    background-color: rgb(0, 0, 129);
+    grid-area: l2;
+}
+.cr .l3 p{
+    background-color: blueviolet;
+    grid-area: l3;
+
+}
+.cr .l3{
+    background-color: rgb(49, 0, 95);
+    grid-area: l3;
+
+}
+.cr .l4 p{
+    background-color: brown;
+    grid-area: l4;
+}
+.cr .l4{
+    background-color: rgb(52, 13, 13);
+    grid-area: l4;
+}
+.cr .l5 p{
+    background-color: chartreuse;
+    grid-area: l5;
+}
+.cr .l5 {
+    background-color: rgb(72, 143, 0);
+    grid-area: l5;
+}
+.cr .l6 p{
+    background-color: azure;
+    grid-area: l6;
+}
+.cr .l6 {
+    background-color: rgb(197, 215, 215);
+    grid-area: l6;
+}
+.cr .l7 p{
+    background-color: brown;
+    grid-area: l7;
+
+}
+.cr .l7{
+    background-color: rgb(77, 14, 14);
+    grid-area: l7;
+
+}
+.cr .l8 p{
+    background-color: red;
+    grid-area: l8;    
+}
+.cr .l8 {
+    background-color: rgb(135, 0, 0);
+    grid-area: l8;    
+}
+
+.conteudo{
+    grid-area: cont;
+    background-color: gold;
+}
+.titulo{
+    grid-area: titl;
+     background-color:violet ;
+}
+.footer{
+    grid-area: cont;
+     background-color:rgb(88, 9, 88);
+     grid-area: ft;
+}

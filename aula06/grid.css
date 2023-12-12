@@ -1,0 +1,34 @@
+.box{
+    background-color: blue;
+    height: 1000px;
+    width: 1400px;
+    display: grid;
+    grid-template-areas: "header header header"
+    "menu1 main right1"
+    "menu menu footer";
+    grid-template-columns: "200px 450px 350px";
+    gap: 50px;    
+    grid-template-rows: "1fr 1fr 1fr";
+
+}
+
+.header{
+    background-color: cadetblue;
+    grid-area: header;
+}
+.menu{
+    background-color: cadetblue;
+    grid-area: menu1;
+}
+.main{
+    background-color: cadetblue;
+    grid-area: main;
+}
+.right{
+    background-color: cadetblue;
+    grid-area: right1;
+}
+.footer{
+    background-color: cadetblue;
+    grid-area: footer;
+}

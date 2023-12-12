@@ -1,0 +1,15 @@
+body{
+    background-image: url("imgs/img02.png");
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right left;
+    background-color: rgb(43, 0, 255);
+}
+#div1{
+    background-color: aqua;
+    padding: 4px 4px 4px 4px;
+    margin: 400px;
+    color: brown;
+
+}

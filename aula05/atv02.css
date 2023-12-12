@@ -1,0 +1,28 @@
+.col1{
+    background-color: green;
+    grid-area: col1;
+}
+.col2{
+    background-color: red;
+    grid-area: col2;
+}
+.col3{
+    background-color: blue;
+    grid-area: col3;
+}
+.col4{
+    background-color: rgb(203, 253, 153);
+    grid-area: col4;
+}
+
+
+.box{
+    width: 1480px;
+    height: 600px;
+
+    display: grid;
+    grid-template-areas: "col4 col4 col4"
+    "col1 col2 col3";
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 50px 1fr 0px;
+}
